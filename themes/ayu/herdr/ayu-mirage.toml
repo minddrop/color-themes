@@ -3,7 +3,7 @@
 name = "catppuccin"
 auto_switch = false
 
-# Ayu Mirage — https://github.com/ayu-theme/ayu-colors/blob/master/themes/mirage.yaml
+# Ayu Mirage, from ayu@9.1.0 (dist/generated/mirage.js); see ../README.md
 [theme.custom]
 panel_bg      = "#1F2430"  # ui.bg / surface.base
 sidebar_bg    = "#181C26"  # surface.sunk
@@ -12,15 +12,15 @@ selection_bg  = "#274364"  # editor.selection.active (409FFF @ 25%)
 surface0      = "#282E3B"  # ui.panel.bg
 surface1      = "#353C4A"  # indent guide
 surface_dim   = "#171B24"  # ui.line
-overlay0      = "#6C7A8B"  # syntax.comment
+overlay0      = "#6E7C8F"  # syntax.comment
 overlay1      = "#707A8C"  # ui.fg
-subtext0      = "#9EA2A7"
+subtext0      = "#9EA2A7"  # not in ayu: midpoint of ui.fg and editor.fg
 text          = "#CCCAC2"  # editor.fg
-accent        = "#FFCC66"  # common.accent
+accent        = "#FFCC66"  # common.accent.tint
 mauve         = "#DFBFFF"  # syntax.constant
 green         = "#D5FF80"  # syntax.string
-yellow        = "#FFD173"  # syntax.func
+yellow        = "#FFCD66"  # syntax.func
 red           = "#F28779"  # syntax.markup
 blue          = "#73D0FF"  # syntax.entity
 teal          = "#95E6CB"  # syntax.regexp
-peach         = "#FFAD66"  # syntax.keyword
+peach         = "#FFA659"  # syntax.keyword
