@@ -6,7 +6,7 @@ My color themes for terminals, editors, and anything else that takes a color sch
 
 | Theme | Variants | Apps | License |
 | --- | --- | --- | --- |
-| [ayu](themes/ayu/) | mirage | Windows Terminal | MIT (port) |
+| [ayu](themes/ayu/) | mirage | Windows Terminal, herdr | MIT (port) |
 
 Open a theme's folder for the files and install steps.
 

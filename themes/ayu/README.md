@@ -2,9 +2,9 @@
 
 A port of [ayu](https://github.com/ayu-theme/ayu-colors) by Konstantin Pschera. MIT license, see [LICENSE](LICENSE).
 
-| Variant | Windows Terminal |
-| --- | --- |
-| mirage | [ayu-mirage.json](windows-terminal/ayu-mirage.json) |
+| Variant | Windows Terminal | herdr |
+| --- | --- | --- |
+| mirage | [ayu-mirage.json](windows-terminal/ayu-mirage.json) | [ayu-mirage.toml](herdr/ayu-mirage.toml) |
 
 ## Install
 
@@ -13,6 +13,14 @@ A port of [ayu](https://github.com/ayu-theme/ayu-colors) by Konstantin Pschera. 
 1. Open **Settings**, then **Open JSON file**.
 2. Paste the file's contents into the `"schemes": [ ... ]` list.
 3. Set `"colorScheme": "Ayu Mirage"` on a profile, or under `profiles.defaults` to use it everywhere.
+
+### herdr
+
+1. Open `~/.config/herdr/config.toml`.
+2. Replace its `[theme]` and `[theme.custom]` sections with the file's contents.
+3. Restart herdr.
+
+The file sets `catppuccin` as the base theme and overrides every color token with Ayu Mirage, so the base theme's colors never show.
 
 ## Notes
 

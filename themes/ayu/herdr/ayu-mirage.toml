@@ -1,0 +1,26 @@
+[theme]
+# Base theme; every color token is overridden below with Ayu Mirage.
+name = "catppuccin"
+auto_switch = false
+
+# Ayu Mirage — https://github.com/ayu-theme/ayu-colors/blob/master/themes/mirage.yaml
+[theme.custom]
+panel_bg      = "#1F2430"  # ui.bg / surface.base
+sidebar_bg    = "#181C26"  # surface.sunk
+active_row_bg = "#242936"  # surface.lift (editor.bg)
+selection_bg  = "#274364"  # editor.selection.active (409FFF @ 25%)
+surface0      = "#282E3B"  # ui.panel.bg
+surface1      = "#353C4A"  # indent guide
+surface_dim   = "#171B24"  # ui.line
+overlay0      = "#6C7A8B"  # syntax.comment
+overlay1      = "#707A8C"  # ui.fg
+subtext0      = "#9EA2A7"
+text          = "#CCCAC2"  # editor.fg
+accent        = "#FFCC66"  # common.accent
+mauve         = "#DFBFFF"  # syntax.constant
+green         = "#D5FF80"  # syntax.string
+yellow        = "#FFD173"  # syntax.func
+red           = "#F28779"  # syntax.markup
+blue          = "#73D0FF"  # syntax.entity
+teal          = "#95E6CB"  # syntax.regexp
+peach         = "#FFAD66"  # syntax.keyword
